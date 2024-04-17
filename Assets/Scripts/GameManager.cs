@@ -44,8 +44,13 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator StartSceneRoutine()
     {
-        yield return new WaitForSeconds(5f); // Wait for 5 seconds
-        LoadLevel("Woodland-1");
+        if (SceneManager.GetActiveScene().name != "Woodland-1")
+        {
+            Debug.Log("Starting scene routine...");
+            yield return new WaitForSeconds(5f); // Wait for 5 seconds
+            Debug.Log("Loading Woodland-1...");
+            LoadLevel("Woodland-1");
+        }
     }
 
     private void LoadLevel(string sceneName)
@@ -55,36 +60,35 @@ public class GameManager : MonoBehaviour
 
     public void PlayerDies()
     {
-        lives--;
-        if (lives <= 0)
-        {
-            LoadLevel("DeathScene");
-        }
-        else
-        {
-            LoadLevel("BrokeScene");
-        }
+        Debug.Log("Player died! Loading DeathScene...");
+        LoadLevel("DeathScene");
     }
+
 
     public void PlayerPassesExitCheck()
     {
+        Debug.Log("Player passed exit check!");
         if (coinsCollected >= totalCoinsInLevel)
         {
+            Debug.Log("All coins collected! Loading RealityScene...");
             LoadLevel("RealityScene");
         }
         else
         {
+            Debug.Log("Not all coins collected! Loading BrokeScene...");
             LoadLevel("BrokeScene");
         }
     }
 
     public void ReturnToMainMenu()
     {
+        Debug.Log("Returning to main menu...");
         LoadLevel("MainMenu");
     }
 
     public void CollectCoin()
     {
+        Debug.Log("Coin collected!");
         coinsCollected++;
         if (coinsCollected >= totalCoinsInLevel)
         {

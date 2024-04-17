@@ -48,6 +48,7 @@ public class ClioLives : MonoBehaviour
         }
     }
 
+
     private void UpdateHeartDisplay()
     {
         foreach (Image img in hearts)

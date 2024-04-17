@@ -27,23 +27,14 @@ public class PlayerMovement : MonoBehaviour
         camera = Camera.main;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+  private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("BoarBottom"))
         {
-            lives--;
-            Debug.Log("Lives remaining: " + lives);
-            if (lives <= 0)
-            {
-                GameManager.Instance.PlayerDies();
-                Debug.Log("Game Over!");
-            }
-        }
-        else if (collision.gameObject.CompareTag("BoarTop"))
-        {
-            Destroy(collision.gameObject.transform.parent.gameObject);
+            GetComponent<ClioLives>().RemoveLife();
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -53,20 +44,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-
     private void Update()
     {
         HorizontalMovement();
-     
+
         grounded = rigidbody.Raycast(Vector2.down);
 
-        if (grounded) {
+        if (grounded)
+        {
             GroundedMovement();
         }
-        
-        ApplyGravity();
-        // Debug.Log("Grounded: " + grounded);
+        else
+        {
+            CheckIfOutOfBounds();
+        }
 
+        ApplyGravity();
     }
 
     private void HorizontalMovement()
@@ -80,19 +73,20 @@ public class PlayerMovement : MonoBehaviour
         {
             velocity.x = 0f;
         }
-        if (velocity.x > 0f) {
+        if (velocity.x > 0f)
+        {
             transform.eulerAngles = Vector3.zero;
-        }   else if (velocity.x < 0f) {
+        }
+        else if (velocity.x < 0f)
+        {
             transform.eulerAngles = new Vector3(0f, 180f, 0f);
         }
-
     }
-    
+
     private void GroundedMovement()
     {
         velocity.y = Mathf.Max(velocity.y, 0f);
         jumping = velocity.y > 0f;
-
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -120,4 +114,15 @@ public class PlayerMovement : MonoBehaviour
 
         rigidbody.MovePosition(position);
     }
+
+    private void CheckIfOutOfBounds()
+    {
+        Vector3 viewportPoint = camera.WorldToViewportPoint(transform.position);
+        if (viewportPoint.y < 0f || viewportPoint.y > 1f || viewportPoint.x < 0f || viewportPoint.x > 1f)
+        {
+            Debug.Log("Player out of bounds!");
+            GameManager.Instance.PlayerDies();
+        }
+    }
+
 }

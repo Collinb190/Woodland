@@ -20,22 +20,22 @@ public class BoarMovement : MonoBehaviour
     {
         Vector3 clioPosition = clio.transform.position;
 
-        Debug.Log("Boar position: " + transform.position);
-        Debug.Log("Clio position: " + clioPosition);
+        //Debug.Log("Boar position: " + transform.position);
+        //Debug.Log("Clio position: " + clioPosition);
 
         if (transform.position.x > clioPosition.x)
         {
             spriteRenderer.flipX = true;
-            Debug.Log("Boar is to the right of Clio, flipping sprite");
+            //Debug.Log("Boar is to the right of Clio, flipping sprite");
         }
         else
         {
-            Debug.Log("Boar is to the left of Clio, sprite remains unchanged");
+            //Debug.Log("Boar is to the left of Clio, sprite remains unchanged");
         }
     }
     else
     {
-        Debug.LogWarning("Clio not found. Ensure Clio has the correct tag.");
+        //Debug.LogWarning("Clio not found. Ensure Clio has the correct tag.");
     }
 }
 

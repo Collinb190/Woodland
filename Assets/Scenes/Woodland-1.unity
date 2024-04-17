@@ -7046,6 +7046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave
       objectReference: {fileID: 0}
+    - target: {fileID: 3790099269161884061, guid: c8b0bc2be3b136c4e8126561dfb993ec, type: 3}
+      propertyPath: m_TagString
+      value: Exit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8b0bc2be3b136c4e8126561dfb993ec, type: 3}
 --- !u!1001 &6590249283410961710
