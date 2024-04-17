@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    public string stage { get; private set; }
+    public int lives { get; private set; }
     public int coinsCollected { get; private set; }
     public int totalCoinsInLevel = 3;
 
@@ -31,29 +32,55 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        NewGame();
+        StartGame();
     }
 
-    private void NewGame()
+    private void StartGame()
     {
+        lives = 3;
         coinsCollected = 0;
+        StartCoroutine(StartSceneRoutine());
+    }
+
+    private IEnumerator StartSceneRoutine()
+    {
+        yield return new WaitForSeconds(5f); // Wait for 5 seconds
         LoadLevel("Woodland-1");
     }
 
-    private void LoadLevel(string stage)
+    private void LoadLevel(string sceneName)
     {
-        this.stage = stage;
-        SceneManager.LoadScene("Woodland-1");
+        SceneManager.LoadScene(sceneName);
     }
 
-    public void NextLevel()
+    public void PlayerDies()
     {
-        // ... LoadLevel(stage + 1)
+        lives--;
+        if (lives <= 0)
+        {
+            LoadLevel("DeathScene");
+        }
+        else
+        {
+            LoadLevel("BrokeScene");
+        }
+    }
+
+    public void PlayerPassesExitCheck()
+    {
+        if (coinsCollected >= totalCoinsInLevel)
+        {
+            LoadLevel("RealityScene");
+        }
+        else
+        {
+            LoadLevel("BrokeScene");
+        }
     }
 
     public void ReturnToMainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        LoadLevel("MainMenu");
     }
 
     public void CollectCoin()

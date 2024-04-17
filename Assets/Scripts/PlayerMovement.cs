@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -36,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Lives remaining: " + lives);
             if (lives <= 0)
             {
-                GameManager.Instance.ReturnToMainMenu();
+                GameManager.Instance.PlayerDies();
                 Debug.Log("Game Over!");
             }
         }
@@ -50,9 +49,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.CompareTag("Exit"))
         {
-            GameManager.Instance.ReturnToMainMenu();
+            GameManager.Instance.PlayerPassesExitCheck();
         }
     }
+
 
     private void Update()
     {

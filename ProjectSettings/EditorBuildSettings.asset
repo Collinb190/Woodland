@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Woodland-1.unity
     guid: 6c82c6f58e091c943bb8fb7656845802
+  - enabled: 1
+    path: Assets/Scenes/BrokeScene.unity
+    guid: 002ddee3d81e385498d60b58b1895b69
+  - enabled: 1
+    path: Assets/Scenes/DeathScene.unity
+    guid: 7ef044e83d21d7a45bd57003cf2ed0ef
+  - enabled: 1
+    path: Assets/Scenes/RealityScene.unity
+    guid: 8c2987de266764547969c0f52aff7911
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: f2ce2cdd47a13e847a5548262533061e
   m_configObjects: {}
