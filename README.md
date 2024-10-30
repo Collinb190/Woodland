@@ -1,5 +1,7 @@
 # [WOODLAND]
 
+![My Image](Images/forReadMe.png)
+
 You are Clio. I ideal natural life is all you've ever known, but now you know your world is a lie. The fantastic land you called home was a simulation, and now you must escape. Can you make it back to reality?
 
 ## Table of Contents
