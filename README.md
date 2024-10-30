@@ -29,10 +29,10 @@ Hello! I am Lin, a passionate game developer with a love for creating engaging e
 
 ## Getting Started
 
-You can download the completed game from this link: https://github.com/Collinb190/Woodland
-    - Save Woodland.zip to your desired location
-    - Unzip Woodland.zip
-    - Double click Woodland.exe and have fun!
+You can download the completed game from this link: [Woodland Zip](https://github.com/Collinb190/Woodland)
+- Save **Woodland.zip** to your desired location.
+- Unzip **Woodland.zip**.
+- Double-click **Woodland.exe** and have fun!
 
 ### Prerequisites
 
