@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -250,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: Run_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -258,6 +261,7 @@ ScriptedImporter:
       spriteId: 06f409b5b097b2a4ba967c5b628bc7e5
     - name: Run_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 2
@@ -266,6 +270,7 @@ ScriptedImporter:
       spriteId: 8ee8e8b5d347d4e47ac51cd84eb8e26b
     - name: Run_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -274,6 +279,7 @@ ScriptedImporter:
       spriteId: 442c9dbdbff2f8b4bb9853b5f4629c9b
     - name: Run_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -282,6 +288,7 @@ ScriptedImporter:
       spriteId: b824dccd432041644b2abbd454a94c41
     - name: Run_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -290,6 +297,7 @@ ScriptedImporter:
       spriteId: 94c47dbf895eeed4f9f71f88d51c2831
     - name: Run_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -301,6 +309,7 @@ ScriptedImporter:
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -312,6 +321,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Standalone
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
