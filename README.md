@@ -4,7 +4,7 @@
 
 ## About Me
 
-Hello! I am Lin, a passionate game developer with a love for creating engaging experiences. I have a background in Unity as well as Web Development and I enjoy bringing my ideas to life. You can connect with me on [LinkedIn](www.linkedin.com/in/collin-ballard), [LinkWithLin](https://www.linkwithlin.com/), and check out my [Portfolio Project Repository](https://github.com/Collinb190).
+Hello! I am Lin, a passionate game developer with a love for creating engaging experiences. I have a background in Unity as well as Web Development and I enjoy bringing my ideas to life. You can connect with me on [LinkedIn](https://www.linkedin.com/in/collin-ballard), [LinkWithLin](https://www.linkwithlin.com/), and check out my [Portfolio Project Repository](https://github.com/Collinb190).
 
 ## Introduction
 
@@ -30,7 +30,7 @@ Hello! I am Lin, a passionate game developer with a love for creating engaging e
 ## Getting Started
 
 You can download the completed game from this link: https://github.com/Collinb190/Woodland
-    - Save Woodland.zip to you desired location
+    - Save Woodland.zip to your desired location
     - Unzip Woodland.zip
     - Double click Woodland.exe and have fun!
 
@@ -54,4 +54,4 @@ Works on PC, Mac, and Linux
 
 ## License
 
-No formal license, but feel free to play!
+No formal license is required; feel free to play this game for personal enjoyment!
