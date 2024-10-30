@@ -1,8 +1,15 @@
-# [WOODLAND]
+# WOODLAND
 
 <img src="Images/forReadMe.png" alt="My Image" width="400"/>
 
-You are Clio. I ideal natural life is all you've ever known, but now you know your world is a lie. The fantastic land you called home was a simulation, and now you must escape. Can you make it back to reality?
+## About Me
+
+Hello! I am Lin, a passionate game developer with a love for creating engaging experiences. I have a background in Unity as well as Web Development and I enjoy bringing my ideas to life. You can connect with me on [LinkedIn](www.linkedin.com/in/collin-ballard), [LinkWithLin](https://www.linkwithlin.com/), and check out my [Portfolio Project Repository](https://github.com/Collinb190).
+
+## Introduction
+
+**Woodland** is a 2D platformer game developed in Unity. In this game, you play as Clio, who discovers that her idyllic natural life is nothing more than a simulation. Players must navigate through various levels, overcoming obstacles and enemies to collect three coins and unlock the exit. The game features vibrant graphics, engaging animations, and a challenging environment that tests your skills. Can you help Clio escape back to reality? 
+
 
 ## Table of Contents
 
@@ -12,22 +19,13 @@ You are Clio. I ideal natural life is all you've ever known, but now you know yo
 4. [Authors](#authors)
 5. [License](#license)
 
-## Introduction
-
-Woodland is a 2D platformer made in Unity. The goal is to make it to the end of the level with all three coins to win. Get to the end without the coins, you lose. You die, you lose!
-
 ## Features
 
-- [Health]
-    Clio starts with 3 lives. Fall off the map, and you die. Take 3 hits, you die.
-- [Boars]
-    Flying boars! Boars will fly at you to prevent you from escaping the simulation. 
-- [Coins]
-    Collect 3 coins to unlock the exit!  
-- [Movement]
-    Clio can jump, and move left to right. Fully animated run and jump cycles. 
-- [Attack]
-    Clio can kill boars by jumping up into them from underneath. Jump on top like a goomba and it'll just hurt Clio!
+- **Health**: Clio starts with 3 lives. Fall off the map, and you die. Take 3 hits, you die.
+- **Boars**: Flying boars will fly at you to prevent you from escaping the simulation. 
+- **Coins**: Collect 3 coins to unlock the exit!  
+- **Movement**: Clio can jump and move left to right, with fully animated run and jump cycles. 
+- **Attack**: Clio can kill boars by jumping up into them from underneath. Jump on top like a Goomba, and it'll just hurt Clio!
 
 ## Getting Started
 
@@ -56,4 +54,4 @@ Works on PC, Mac, and Linux
 
 ## License
 
-You got a license to play this game?
+No formal license, but feel free to play!
