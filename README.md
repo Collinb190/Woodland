@@ -61,4 +61,4 @@ Download the completed game here on GitHub: [Woodland.zip](https://github.com/Co
 
 ## License
 
-No formal license is required
+- No formal license is required
