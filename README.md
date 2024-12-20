@@ -36,9 +36,10 @@ forest, once calm and inviting, now holds secrets that threaten not just the wor
 ## Getting Started
 
 Download the completed game here on GitHub: [Woodland.zip](https://github.com/Collinb190/Woodland/blob/main/executable/test.txt)
-- Save **Woodland.zip** to your desired location.
-- Unzip **Woodland.zip**.
-- Double-click **Woodland.exe** and have fun!
+- Save **Woodland.zip**
+- Unzip **Woodland.zip**
+- Double-click **Woodland.exe**
+- Have Fun!
 
 ### Hardware
 
