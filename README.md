@@ -8,6 +8,15 @@ Hello! I am Lin, a passionate game developer with a love for creating engaging e
 Web Development and I enjoy bringing my ideas to life. You can connect with me on [LinkedIn](https://www.linkedin.com/in/collin-ballard), 
 [LinkWithLin](https://www.linkwithlin.com/), and check out my [Portfolio Project Repository](https://github.com/Collinb190).
 
+## Table of Contents
+
+0. [Introduction](#introduction)
+1. [Features](#features)
+2. [Getting Started](#getting-started)
+3. [Controls](#controls)
+4. [Authors](#authors)
+5. [License](#license)
+
 ## Introduction
 
 **Woodland** In this 2D platformer adventure, developed in Unity, you play as Pearl, an adventurer who wakes up in a tranquil forest, 
@@ -15,15 +24,6 @@ but something feels wrong. The vibrant world around her seems familiar, yet unse
 changes begin to occur—things deteriorate, the environment grows more twisted, and Pearl’s sense of reality begins to blur. At first, 
 the cause of these unsettling events is unclear, but as Pearl pushes forward, fragments of forgotten memories begin to resurface. The 
 forest, once calm and inviting, now holds secrets that threaten not just the world around her, but her very existence.
-
-
-## Table of Contents
-
-1. [Features](#features)
-2. [Getting Started](#getting-started)
-3. [Controls](#controls)
-4. [Authors](#authors)
-5. [License](#license)
 
 ## Features
 
