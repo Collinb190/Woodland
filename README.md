@@ -51,7 +51,7 @@ Download the completed game here on GitHub: [Woodland.zip](https://github.com/Co
 
 ## Authors
 
-Collin Ballard [https://github.com/Collinb190]
+Collin Ballard [GitHub](https://github.com/Collinb190)
 
 ## About Me
 
