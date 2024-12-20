@@ -2,12 +2,6 @@
 
 <img src="images/forReadMe.png" alt="My Image" width="400"/>
 
-## About Me
-
-Hello! I am Lin, a passionate game developer with a love for creating engaging experiences. I have a background in Unity as well as
-Web Development and I enjoy bringing my ideas to life. You can connect with me on [LinkedIn](https://www.linkedin.com/in/collin-ballard), 
-[LinkWithLin](https://www.linkwithlin.com/), and check out my [Portfolio Project Repository](https://github.com/Collinb190).
-
 ## Table of Contents
 
 0. [Introduction](#introduction)
@@ -15,7 +9,8 @@ Web Development and I enjoy bringing my ideas to life. You can connect with me o
 2. [Getting Started](#getting-started)
 3. [Controls](#controls)
 4. [Authors](#authors)
-5. [License](#license)
+5. [About Me](#about-me)
+6. [License](#license)
 
 ## Introduction
 
@@ -56,9 +51,15 @@ Download the completed game here on GitHub: [Woodland.zip](https://github.com/Co
 
 ## Authors
 
-1. Collin Ballard [https://github.com/Collinb190]
+Collin Ballard [https://github.com/Collinb190]
+
+## About Me
+
+Hello! I am Lin, a passionate game developer with a love for creating engaging experiences. I have a background in Unity as well as
+Web Development and I enjoy bringing my ideas to life. You can connect with me on [LinkedIn](https://www.linkedin.com/in/collin-ballard), 
+[LinkWithLin](https://www.linkwithlin.com/), and check out my [Portfolio Project Repository](https://github.com/Collinb190).
 
 
 ## License
 
-- No formal license is required
+No formal license is required
