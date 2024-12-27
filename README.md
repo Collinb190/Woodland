@@ -1,6 +1,6 @@
 # WOODLAND
 
-<img src="images/forReadMe.png" alt="My Image" width="600"/>
+<img src="images/forReadMe.png" alt="My Image" width="800"/>
 
 ## Table of Contents
 
